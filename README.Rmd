@@ -1,0 +1,6 @@
+These scripts let you align images semi-automatically and run orientatitionJ automatically, plus data processing in R.
+
+# notes
+- Set the threshold for the mask so it makes sense for your images (line 43).
+- Set the contrast for the validation images so it makes sense for your images (line 95).
+- Make sure your image is square (e.g. 1024x1024) and that the value of 'vectorgrid' is a divisor of the image dimensions.
