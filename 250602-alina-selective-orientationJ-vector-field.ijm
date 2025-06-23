@@ -28,7 +28,7 @@ dy = y2 - y1;
 angle_radians = atan2(dy, dx);
 print(angle_radians);
 angle_degrees = angle_radians* (180.0 / PI);
-rotation_angle = 90-angle_degrees;
+rotation_angle = 180-angle_degrees;
 for (i = 0; i < 3; i++) {
   Stack.setChannel(i);
   run("Rotate... ", "angle=" + rotation_angle + " interpolation=None");
